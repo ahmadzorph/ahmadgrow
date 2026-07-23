@@ -84,21 +84,21 @@
 ## 🐧 KALI LINUX INSTALLATION
 
 ### Complete Installation:
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-pip git nano -y
-pip3 install --upgrade pip
-git clone https://github.com/ahmadzorph/ahmadgrow.git
-cd ahmadgrow
-pip3 install yt-dlp rich colorama
-python3 ahmadgrow.py
+1: sudo apt update && sudo apt upgrade -y
+2: sudo apt install python3 python3-pip git nano -y
+3: pip3 install --upgrade pip
+4: git clone https://github.com/ahmadzorph/ahmadgrow.git
+5: cd ahmadgrow
+6: pip3 install yt-dlp rich colorama
+7: python3 ahmadgrow.py
 
 ## Termux INSTALLATION
 
 ### Complete Installation:
-pkg update && pkg upgrade -y
-pkg install python git nano openssl-tool -y
-pip install --upgrade pip
-git clone https://github.com/ahmadzorph/ahmadgrow.git
-cd ahmadgrow
-pip install yt-dlp rich colorama
-python ahmadgrow.py
+1: pkg update && pkg upgrade -y
+2: pkg install python git nano openssl-tool -y
+3: pip install --upgrade pip
+4: git clone https://github.com/ahmadzorph/ahmadgrow.git
+5: cd ahmadgrow
+6: pip install yt-dlp rich colorama
+7: python ahmadgrow.py
