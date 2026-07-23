@@ -61,7 +61,19 @@ Run these commands on **Kali Linux**:
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git nano -y
 pip3 install --upgrade pip
-git clone [https://github.com/ahmadzorph/ahmadgrow.git](https://github.com/ahmadzorph/ahmadgrow.git)
+git clone https://github.com/ahmadzorph/ahmadgrow.git
+cd ahmadgrow
+pip3 install yt-dlp rich colorama
+python3 ahmadgrow.py
+
+
+## Termux Installation
+
+```bash
+apt update && apt upgrade -y
+apt install python3 python3-pip git nano -y
+pip3 install --upgrade pip
+git clone https://github.com/ahmadzorph/ahmadgrow.git
 cd ahmadgrow
 pip3 install yt-dlp rich colorama
 python3 ahmadgrow.py
